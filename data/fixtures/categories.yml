@@ -1,0 +1,7 @@
+BookitCategory:
+  drama:
+    name: Drama
+  science:
+    name: Science
+  true_stories:
+    name: True Stories

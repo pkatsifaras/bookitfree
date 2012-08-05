@@ -1,0 +1,129 @@
+BookitBook:
+  MyFirstBook:
+    BookitCategory:  drama
+    title:        My first book in here
+    secondary_title:         A new drama with Drakula
+    author:      Panging Booker
+    short_description:  Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+    description:  |
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+      Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. 
+      Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. 
+#      Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. 
+#      Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. 
+#      Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, 
+#      sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. 
+#      Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, 
+#      eu vulputate magna eros eu erat. Aliquam erat volutpat. 
+#      Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+    logo:         book1.jpg
+    isbn:         1234567890
+    url:          http://mybook.gr
+    pages:        500
+    dimensions:   21x14
+    weight:       0.32
+    position:     Athens
+    location:     Koukaki
+    how_to_apply: E-mail or telephone
+#    token:        { type: string(255), notnull: true, unique: true }
+    is_public:    true
+    is_activated: true
+    email:        book1@bookstore.gr
+    expires_at:   '2012-08-03'
+    token:        book_my_first_book_in_here
+  TheSecontBook:
+    BookitCategory:  science
+    title:        The Second book in here
+    secondary_title:         A new drama with Drakula
+    author:      Panging Booker
+    short_description:  Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+    description:  |
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+      Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. 
+      Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. 
+#      Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. 
+#      Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. 
+#      Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, 
+#      sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. 
+#      Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, 
+#      eu vulputate magna eros eu erat. Aliquam erat volutpat. 
+#      Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+    logo:         book2.jpg
+    isbn:         1234567891
+    url:          http://mybook.gr
+    pages:        500
+    dimensions:   21x14
+    weight:       0.32
+    position:     Athens
+    location:     Koukaki
+    how_to_apply: E-mail or telephone
+#    token:        { type: string(255), notnull: true, unique: true }
+    is_public:    true
+    is_activated: true
+    email:        book2@bookstore.gr
+    expires_at:   '2013-01-16'
+    token:        book_the_second_book_in_here
+  3:
+    BookitCategory:  drama
+    title:        The Magic
+    secondary_title:         Donec eu libero sit
+    author:      Panging Booker
+    short_description:  Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+    description:  |
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+      Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. 
+      Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. 
+#      Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. 
+#      Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. 
+#      Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, 
+#      sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. 
+#      Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, 
+#      eu vulputate magna eros eu erat. Aliquam erat volutpat. 
+#      Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+    logo:         book3.jpg
+    isbn:         1234567891
+    url:          http://mybook.gr
+    pages:        500
+    dimensions:   21x14
+    weight:       0.32
+    position:     Athens
+    location:     Koukaki
+    how_to_apply: E-mail or telephone
+#    token:        { type: string(255), notnull: true, unique: true }
+    is_public:    true
+    is_activated: true
+    email:        book3@bookstore.gr
+    expires_at:   '2013-01-16'
+    token:        book_the_magic
+  4:
+    BookitCategory:  drama
+    title:        The Magic 2
+    secondary_title:         Donec eu libero sit
+    author:      Panging Booker
+    short_description:  Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+    description:  |
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+      Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. 
+      Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. 
+#      Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. 
+#      Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. 
+#      Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, 
+#      sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. 
+#      Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, 
+#      eu vulputate magna eros eu erat. Aliquam erat volutpat. 
+#      Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+    logo:         book4.jpg
+    isbn:         1234567891
+    url:          http://mybook.gr
+    pages:        500
+    dimensions:   21x14
+    weight:       0.32
+    position:     Athens
+    location:     Koukaki
+    how_to_apply: E-mail or telephone
+#    token:        { type: string(255), notnull: true, unique: true }
+    is_public:    true
+    is_activated: true
+    email:        book3@bookstore.gr
+    expires_at:   '2013-01-16'
+    token:        book_the_magic_2

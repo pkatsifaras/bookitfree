@@ -1,0 +1,14 @@
+sfGuardUser:
+  sfGuardUser_1:
+    first_name: admin
+    last_name: administrator
+    email_address: admin@mydomain.gr
+    username: admin
+    algorithm: sha1
+    salt: 5add9a485e34aa05825bd48dcb542295
+    password: admin1234
+    is_active: true
+    is_super_admin: true
+    last_login: null
+    created_at: '2011-09-09 18:25:30'
+    updated_at: '2011-09-09 18:25:30'

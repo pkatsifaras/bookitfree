@@ -1,0 +1,24 @@
+html body{
+  /*  background-image: url('/images/body-bg.jpg');
+    background-position: center;*/
+}
+div.container div.search{
+  margin-top: 50px;
+}
+div.container div.search form.well input#search_keywords{
+  width: 600px;
+  font-size: 25px;
+  height: 30px;
+  margin-top: 10px;
+}
+div.container div.content div.category_Drama div.book div.book{
+  display: inline-block;
+}
+div.container div.content div.row div.feed{
+  float: right;
+}
+
+div.container div.content div.row{
+  margin-left: 0;
+}
+

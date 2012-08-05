@@ -1,0 +1,49 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+# default rules
+#book_show_user:
+#  url:   /book/:id/:title
+#  class: sfRequestRoute
+#  options: { model: BookitBook, type: object }
+#  param: { module: book, action: show }
+#  requirements:
+#    id: \d+
+#    sf_method: [get]
+
+book_search:
+  url:   /search
+  param: { module: book, action: search }
+
+book:
+  class:        sfDoctrineRouteCollection
+  options:      { model: BookitBook, column: token }
+  requirements: { token: \w+ }
+  
+book_show_user:
+  url:   /book/:id/:token/:title
+  class:   sfDoctrineRoute
+  options: { model: BookitBook, type: object }
+  param: { module: book, action: show }
+  requirements:
+    id: \d+
+    sf_method: [get]
+
+category:
+  url:      /category/:id
+  class:    sfDoctrineRoute
+  param:    { module: category, action: show }
+  options:  { model: BookitCategory, type: object }
+
+homepage:
+  url:   /
+  param: { module: book, action: index }
+
+# generic rules
+# please, remove them by adding more specific rules
+default_index:
+  url:   /:module
+  param: { action: index }
+
+default:
+  url:   /:module/:action/*

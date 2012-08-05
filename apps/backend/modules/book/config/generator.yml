@@ -1,0 +1,36 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           BookitBook
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          bookit_book
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields: ~
+      list:    
+        title: Book Management
+        sort: [expires_at, desc]
+        max_per_page: 10
+        batch_actions:
+          _delete:    ~
+          extend:     ~
+        object_actions:
+          extend:     ~
+          _edit:      ~
+          _delete:    ~
+        actions:
+          deleteNeverActivated: { label: Delete never activated books }
+        table_method: retrieveBackendBookList
+      filter:  ~
+      form:   
+        class: BackendBookitBookForm
+      edit:    
+        title: Editing Book "%%title%%"
+      new:     ~
